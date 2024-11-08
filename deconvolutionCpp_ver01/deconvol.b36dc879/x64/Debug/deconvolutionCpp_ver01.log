@@ -1,0 +1,4 @@
+﻿main.obj : error LNK2019: unresolved external symbol __imp_fftw_execute referenced in function "void __cdecl fftConvolution(float * &,int &,float const * const &,int const &,float const * const &,int const &)" (?fftConvolution@@YAXAEAPEAMAEAHAEBQEBMAEBH23@Z)
+main.obj : error LNK2019: unresolved external symbol __imp_fftw_plan_dft_1d referenced in function "void __cdecl fftConvolution(float * &,int &,float const * const &,int const &,float const * const &,int const &)" (?fftConvolution@@YAXAEAPEAMAEAHAEBQEBMAEBH23@Z)
+main.obj : error LNK2019: unresolved external symbol __imp_fftw_destroy_plan referenced in function "void __cdecl fftConvolution(float * &,int &,float const * const &,int const &,float const * const &,int const &)" (?fftConvolution@@YAXAEAPEAMAEAHAEBQEBMAEBH23@Z)
+C:\Users\gmjoy\Documents\_UH\semester 7\ECE 4335 - Senior Design 1\Programming\deconvolutionCpp_ver01\x64\Debug\deconvolutionCpp_ver01.exe : fatal error LNK1120: 3 unresolved externals
